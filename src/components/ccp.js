@@ -212,7 +212,7 @@ const Ccp = () => {
           <Grid columns='equal' stackable padded>
           <Grid.Row>
             {/* CCP window will load here */}
-            <div id="ccp-container"></div>
+            <div hidden id="ccp-container"></div>
             {/* Translate window will laod here. We pass the agent state to be able to use this to push messages to CCP */}
             <div id="chatroom" ><Chatroom session={agentChatSessionState}/> </div> 
             </Grid.Row>
