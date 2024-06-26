@@ -1,8 +1,8 @@
 #ccp-container {
-  height:1px;
+  height:385px;
   padding-top: 15px;
   padding-left: 15px;
-  width: 1px;
+  width: 400px;
 }
 
 .ui.toggle.checkbox input:checked ~ .box:before,
