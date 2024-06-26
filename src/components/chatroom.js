@@ -27,7 +27,7 @@ const Chatroom = (props) => {
     }
 
     const sendMessage = async(session, content) => {
-        const awsSdkResponse = session.sendMessage({
+        const awsSdkResponse = await session.sendMessage({
             contentType: "text/plain",
             message: content
         });
